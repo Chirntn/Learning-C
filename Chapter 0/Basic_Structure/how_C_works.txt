@@ -1,0 +1,25 @@
+Compilation of a C Program
+
+These steps are followed to turn a C file into executable:
+    1. Preprocessing 
+    2. Compilation
+    3. Assembly
+    4. Linking 
+
+Presprocessing : Comments are removed
+                 Macros are expanded
+                 #include library contents are transferred to a 
+                 separate file (Stored with a file_name.i extension)
+                 ex - it copied the contents of stdio.h
+
+Compilation : The file_name.i file is converted to assembly language
+              and saved with a file_name.s extension
+
+Assembly : Assembly language is converted to machine level code (.O)
+
+Linking : Takes all .o files and puts them together as an .exe file
+          (.out in linux)
+
+          Two types - 
+          Static Linking
+          Dynamic linking (.dll)

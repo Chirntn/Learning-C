@@ -1,0 +1,17 @@
+Loops in C
+
+Advantage - 
+
+Code Reusability(Saves Time)
+Traversing
+Iterating 
+
+Basic Syntax
+
+Loops starts -> Check Condition -> False -> Exit Loops
+                        -> true -> Execute Loop
+
+Types of Loops
+1. Do-while Loop
+2. While Loop
+3. For Loop
